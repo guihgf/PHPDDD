@@ -27,5 +27,7 @@ omo não encontrei nenhum framework que poupe o dominio de ser utilizado diretam
 
 Aprendi essa estrutura através do mito Eduardo Pires, porém os ensinamentos passados por ele eram feitos Asp.Net MVC 5, o desafio aqui proposto foi desenvolver a estrutura em PHP utilizando o minimo de frameworks, no fim consegui fazer tudo utilizando apenas o IOC Dice e o ORM Spot no qual foi o único que consegui abstrair o Model do banco.
 
+Projeto de um simples controle financeiro.
+
 Necessário no minimo PHP 5.6 para uso do projeto. 
     
