@@ -1,0 +1,10 @@
+<?php
+    $routes=array('default'=>'login',
+                    'login'=>'UsuarioController.php',
+                    'home'=>'HomeController.php',
+                    'contas'=>'ContaController.php',
+                    'participantes'=>'ParticipanteController.php',
+                    'tipopagamentos'=>'TipoPagamentoController.php',
+                    'gruposlancamentos'=>'GrupoLancamentoController.php',
+                    'lancamentos'=>'LancamentoController.php'
+         );

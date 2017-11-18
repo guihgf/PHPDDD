@@ -1,0 +1,25 @@
+{
+    "name": "projectx",
+    "description": "tentando fazer um ddd com php",
+    "authors": [
+        {
+            "name": "Guilherme",
+            "email": "guihgf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "vlucas/spot2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": { "Api\\Rest\\":"src/0-Presentation/Rest/",
+                    "Application\\":"src/1-Application/",
+                   "Domain\\":"src/2-Domain/",
+                   "Infra\\Data\\": "src/3-Infra/3.1-Data/",
+                   "Infra\\Ioc\\": "src/3-Infra/3.2-CrossCutting/",
+                   "Dice\\":"src/3-Infra/3.2-CrossCutting/Dice/"
+                   
+
+                 }
+    }
+}
