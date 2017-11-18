@@ -25,7 +25,7 @@ O projeto esta dividido nas seguintes camadas:
 O projeto visa não ser complexo, utilizando libs simples, o maior desafio foi "bolar" uma maneira de não setar atributos de mapeamento de banco de dados na camada de Dominio, pois ela não deve possuir esse tipo informação. C
 omo não encontrei nenhum framework que poupe o dominio de ser utilizado diretamente com o banco(assim como o Entity Framework do C# faz utilizando contexto), tive que criar as classes em EntityConfig para mapear o modelo com a tabela do banco e as Factories para converter quando necessário um modelo em uma tabela e vice versa. Os repositórios devem extender a classe RepositorioBase que possuem implementações que abstraem a utilização das Factories.
 
-Aprendi essa estrutura através do mito Eduardo Pires, porém os ensinamentos passados por ele eram feitos Asp.Net MVC 5, o desafio aqui proposto foi desenvolver a estrutura em PHP utilizando o minimo de frameworks, no fim consegui fazer tudo utilizando apenas o IOC Dice e o ORM Spot no qual foi o único que consegui abstrair o Model do banco.
+Aprendi essa estrutura através do mito Eduardo Pires, porém os ensinamentos passados por ele eram feitos Asp.Net MVC 5, o desafio aqui proposto foi desenvolver a estrutura em PHP utilizando o minimo de frameworks, no fim consegui fazer tudo utilizando apenas o IOC Dice e o ORM Spot no qual foi o único que consegui abstrair o Model do banco. Infelizmente apenas não consegui ainda implementar ViewModel.
 
 Projeto de um simples controle financeiro.
 
