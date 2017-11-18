@@ -24,4 +24,6 @@ O projeto esta dividido nas seguintes camadas:
   
 O projeto visa não ser complexo, utilizando libs simples, o maior desafio foi "bolar" uma maneira de não setar atributos de mapeamento de banco de dados na camada de Dominio, pois ela não deve possuir esse tipo informação. C
 omo não encontrei nenhum framework que poupe o dominio de ser utilizado diretamente com o banco(assim como o Entity Framework do C# faz utilizando contexto), tive que criar as classes em EntityConfig para mapear o modelo com a tabela do banco e as Factories para converter quando necessário um modelo em uma tabela e vice versa. Os repositórios devem extender a classe RepositorioBase que possuem implementações que abstraem a utilização das Factories.
+
+Necessário no minimo PHP 5.6 para uso do projeto.
     
